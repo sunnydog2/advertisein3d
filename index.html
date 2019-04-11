@@ -10,7 +10,7 @@
     <body>
     <div class="body-grid">
         <header class="site-header">
-            <a href='https://drive.google.com/file/d/1b4hxjfH4mDtAHXcncS5MHEObrfHqmGBN/view?usp=sharing&amp;usp=embed_facebook&source=ctrlq.org'>
+            <a href='https://lh3.googleusercontent.com/E8pKskeszqPgpawzfcAunbQXeLDZJ0FbDO3y8xRiPQDmztScTcOUoqQud5uRZOvNJ6bhOIkwepa6Zgn3Zn3as9nY2UFuAmfmjzNp3TJieRWuqNnMSRrAlLVyduktEeBx0aYwmWa92Ks=w2400'>
               <img src='https://lh3.googleusercontent.com/NBJ0zENN2bsDYP7x3Ji79bcZ2s1d26IY2KC5vnhdcW0rzxwQo6YHLCtp97s=w2400' 
                              
                       version "1.1" class="logo" x="0px" y="0px"
@@ -30,7 +30,7 @@
             </nav>
         </header>
              
-    <img src=https://lh3.googleusercontent.com/obGg3PIihH26bcmgUiJnpHn1zVwBfciNkP-DvrdyfLuD1-4L5MUhy9k3gYE
+    <img src="https://lh3.googleusercontent.com/Eu5vSqtn2yA21Y02I7Zrnruhoc4i3cI-JHDkNOtwR3VINCzVKhIL7_6QXD-0RpRo3Ly-AKWJiGiXmRY9i6T35xOoXmLh-eofOW0ba8NskIxnk_-gGayWTUkRQ50V7sDg1EbZpiK9fYo=w2400"
         width="40" height="40"
          class="banner__headshot" alt="Web essentials graduates, Spring 2019">
 
@@ -48,24 +48,7 @@
               <p>Going to a coding bootcamp can increase your chances of landing a software engineering job.
 
 That’s according to the latest survey published this week from jobs site Hired, which reports that of the 13% of respondents who said they had attended a coding bootcamp, 76% said the experience helped them score a software engineering job. Meanwhile, 57% of employers surveyed said they would consider hiring a bootcamp graduate for an open role, while just 7% said of employers said they would not.</p>
-      var subtotal=document.getElementById('subtotal')
-var tip = document.getElementById('tip')
-var total = document.getElementById('total')
-
-
- function calcTip (percent) {
- var subtotalValue=Number (subtotal.value)
- var tipValue=subtotalValue*percent
- tip.value=tipValue
-   total.value=tipValue
-   total.innerHTML= '$' (tipValue + subtotalValue)
-}
-function updateCustomTip() {
-
-  total.innerHTML = '$' + (Number(tip.value) + Number(subtotal.value))
-                         
-}
-
+      
         
     </div>
  <div class="course-promo ad-space">
@@ -76,8 +59,8 @@ function updateCustomTip() {
 <input id='subtotal' placeholder="Enter your salary now" type="number">
 
 <br>
-<button onclick="calcTip(.15)">25%</button>
-<button onclick="calcTip(.20)">50%</button>
+<button onclick="calcTip(.25)">25%</button>
+<button onclick="calcTip(.50)">50%</button>
 <button onclick="calcTip(.22)">100%</button>
 <br>
 
@@ -87,7 +70,7 @@ function updateCustomTip() {
 <br>
 
 <label>Total:</label>
-<hi id="total"></h1>
+<h1 id="total"></h1>
   
       
     </div>
@@ -130,8 +113,9 @@ function updateCustomTip() {
 
     <h4 class="sides__header">My Side Projects</h4>
     <section class="sides">
-        <a class="sides__item" href="https://www.google.com"><img src="https://pay.google.com/about/static/images/social/og_image.jpg" alt="Google Pay"></a>
-        <a class="sides__item" href="https://www.paypal.com/us/webapps/mpp/logo-center"><img src="https://www.paypalobjects.com/webstatic/mktg/logo-center/PP_Acceptance_Marks_for_LogoCenter_266x142.png" alt="Pay Pal"></a>
+        <a class="sides__item" href="https://www.zappar.com"><img src="https://lh3.googleusercontent.com/TR0eZdo6NTUi4boWWmYQMjBvgGhy-jmScJ-x0BEg7ocaofa0lUvHdUNLEEkQ4v_WI8zgz_m7xCW-pl3k-Yhb4J_rAlTk5CB-BfBybjU0VASNT0ckcGpHbz0q_Z97pO3qJHSlfcnGDjI=s225-p-k" alt="Zappar"></a>
+      
+        <a class="sides__item" href="https://www.gainesvilledevacademy.com"><img src="https://lh3.googleusercontent.com/1xdkmZGqGsl1NICr7bUq8tTqkcO02PbFq1EhB-i43I7TyEOpW9zd84-4BLh6JZ9R4_sYHoF_oB_Yf5nfDXe7FIOVApPGSpaZhUBJ1Mbujk3QdOxxDCp1phtKxAg-WUzWWSxkVKjrq8g" width="140" height="140" alt="photo"></a>
         <a class="sides__item" href="https://www.ebay.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/1/11/EBay_former_logo.svg" alt="EBAY"></a>
         <a class="sides__item" href="https://www.tesla.com/"><img src="https://sagharborexpress.com/wp-content/uploads/2018/07/tesla-logo.jpg" alt="Tesla Logo"></a>
     </section>
@@ -146,5 +130,8 @@ function updateCustomTip() {
 </section>
 
 
+
+
+<script src="./app.js"></script>
 </body>
 </html>
